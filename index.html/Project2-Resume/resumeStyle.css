@@ -1,0 +1,89 @@
+body, h1, h2, ul, ol, li, p, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-image: url("url/cool.jpg");
+   background-repeat: repeat;
+   }
+
+#body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#header {
+    background-color: #333333;
+    padding: 50px;
+    opacity: 0.8;
+    color: #fff;
+}
+
+#footer {
+    background-color: #333;
+    padding: 10px;
+    opacity: 0.8;
+    color: #fff;
+}
+
+#lnav {
+    background-color: #ddd;
+    padding: 10px;
+    opacity: 0.8;
+    float: left;
+    width: 15%;
+    margin: 10px;
+}
+
+#rnav {
+    background-color: #ddd;
+    padding: 10px;
+    opacity: 0.8;
+    float: right;
+    width: 20%;
+    margin: 10px;
+}
+
+#bd {
+    background-color: #f2f2f2;
+    padding: 10px;
+    opacity: 0.8;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+
+a {
+    color: #3366cc;
+    text-decoration: underline;
+}
+
+a:hover {
+    font-size: 110%;
+    text-decoration: underline;
+    color: #3366cc;
+}
+
+a:visited {
+    color: #993366;
+}
+
+
+.hList {
+    text-align: center;
+    position: relative;
+}
+
+.hList ul {
+    margin: 0;
+}
+
+.hList li {
+    display: inline;
+    margin: 0 10px;
+}
+
